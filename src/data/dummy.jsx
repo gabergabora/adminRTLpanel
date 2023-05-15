@@ -32,7 +32,7 @@ import { RiContactsLine, RiStockLine } from "react-icons/ri";
 import { TiTick } from "react-icons/ti";
 import avatar from "./avatar.jpg";
 import avatar2 from "./avatar2.jpg";
-import avatar3 from "./avatar3.png";
+import avatar3 from "./avatar3.jpg";
 import avatar4 from "./avatar4.jpg";
 import product1 from "./product1.jpg";
 import product2 from "./product2.jpg";

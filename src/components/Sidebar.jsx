@@ -1,6 +1,6 @@
 import { TooltipComponent } from "@syncfusion/ej2-react-popups";
 import { MdOutlineCancel } from "react-icons/md";
-import { SlPuzzle } from "react-icons/sl";
+import { RxComponent1 } from "react-icons/rx";
 import { Link, NavLink } from "react-router-dom";
 import { useStateContext } from "../context/ContextProvider";
 import { links } from "../data/dummy";
@@ -27,9 +27,9 @@ const Sidebar = () => {
                 className="border-2 border-gray-500 rounded-full p-[5px] flex items-center justify-center
             "
               >
-                <SlPuzzle className="text-xl" />
+                <RxComponent1 className="text-xl" />
               </span>
-              <span>پـازلــ</span>
+              <span>پــارس ادمینــ</span>
             </Link>
             <TooltipComponent
               enableRtl={true}
