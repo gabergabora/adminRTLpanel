@@ -1,11 +1,12 @@
 /* eslint-disable no-unused-vars */
 import { TooltipComponent } from "@syncfusion/ej2-react-popups";
 import { RiSettingsLine } from "react-icons/ri";
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
 import { useStateContext } from "./context/ContextProvider";
+import Ecommerce from "./pages/Ecommerce";
 function App() {
   const {
     activeMenu,
@@ -33,8 +34,9 @@ function App() {
           </div>
           {activeMenu ? (
             <div
-              className={`w-72 fixed shrink-0  z-[10000000]
-              }] dark:bg-secondary-dark-bg bg-white`}
+              className="w-72 fixed shrink-0  
+              dark:bg-secondary-dark-bg bg-white"
+              style={{ zIndex: isClicked.cart ? "10" : "10009" }}
             >
               <Sidebar />
             </div>
@@ -50,6 +52,13 @@ function App() {
           >
             <div className="sticky top-0 left-0 bg-main-bg dark:bg-main-dark-bg navbar ">
               <Navbar />
+            </div>
+            <div>
+              <Routes>
+                {/* dashbord */}
+
+                <Route path="/" element={<Ecommerce />} />
+              </Routes>
             </div>
           </div>
         </div>

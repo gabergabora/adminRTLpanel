@@ -12,6 +12,7 @@
   "dependencies": {
     "@syncfusion/ej2-base": "^21.2.3",
     "@syncfusion/ej2-react-base": "^21.2.3",
+    "@syncfusion/ej2-react-charts": "^21.2.4",
     "@syncfusion/ej2-react-popups": "^21.2.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
