@@ -22,6 +22,8 @@ import * as timeZoneNames from "cldr-data/main/fa/timeZoneNames.json";
 import * as numberingSystems from "cldr-data/supplemental/numberingSystems.json";
 import * as weekData from "cldr-data/supplemental/weekData.json";
 import Area from "./pages/Charts/Area";
+import Bar from "./pages/Charts/Bar";
+import Pie from "./pages/Charts/pie";
 import ColorPicker from "./pages/ColorPicker";
 import Editor from "./pages/Editor";
 import Kanban from "./pages/Kanban";
@@ -87,6 +89,8 @@ function App() {
                 <Route path="/color-picker" element={<ColorPicker />} />
                 <Route path="/line" element={<LineChart />} />
                 <Route path="/area" element={<Area />} />
+                <Route path="/bar" element={<Bar />} />
+                <Route path="/pie" element={<Pie />} />
               </Routes>
             </div>
           </div>
