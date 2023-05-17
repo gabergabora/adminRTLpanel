@@ -10,7 +10,7 @@ import Header from "../components/Header";
 const Kanban = () => {
   return (
     <div className="m-2 md:m-10 p-2 md:p-10 bg-white dark:bg-[#33373E] rounded-3xl">
-      <Header category="اپلیکیشن‌ها" title="کانبان" />
+      <Header category="اپلیکیشن‌ها" title="کانبان (تابلوی راهنما)" />
       <KanbanComponent
         id="kanban"
         dataSource={kanbanData}

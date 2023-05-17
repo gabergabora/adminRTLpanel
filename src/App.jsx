@@ -7,6 +7,7 @@ import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
 import { useStateContext } from "./context/ContextProvider";
 import Calendar from "./pages/Calendar";
+import LineChart from "./pages/Charts/LineChart";
 import Customers from "./pages/Customers";
 import Ecommerce from "./pages/Ecommerce";
 import Employees from "./pages/Employees";
@@ -20,6 +21,9 @@ import * as numbers from "cldr-data/main/fa/numbers.json";
 import * as timeZoneNames from "cldr-data/main/fa/timeZoneNames.json";
 import * as numberingSystems from "cldr-data/supplemental/numberingSystems.json";
 import * as weekData from "cldr-data/supplemental/weekData.json";
+import Area from "./pages/Charts/Area";
+import ColorPicker from "./pages/ColorPicker";
+import Editor from "./pages/Editor";
 import Kanban from "./pages/Kanban";
 
 function App() {
@@ -79,6 +83,10 @@ function App() {
                 <Route path="/customers" element={<Customers />} />
                 <Route path="/calendar" element={<Calendar />} />
                 <Route path="/kanban" element={<Kanban />} />
+                <Route path="/editor" element={<Editor />} />
+                <Route path="/color-picker" element={<ColorPicker />} />
+                <Route path="/line" element={<LineChart />} />
+                <Route path="/area" element={<Area />} />
               </Routes>
             </div>
           </div>
