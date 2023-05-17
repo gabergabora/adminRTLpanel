@@ -9,11 +9,14 @@ const Ecommerce = () => {
   return (
     <div className="mt-12">
       <div className="flex flex-col justify-center items-center">
-        <div className="bg-white dark:text-gray-200 dark:bg-secondary min-w-[320px] h-44 xl:h-64 rounded-xl w-[95%] xs:w-[80%] p-8 m-3 bg-hero-pattern  bg-no-repeat bg-cover bg-left">
-          <div className="flex justify-between items-center ">
+        <div className=" flex flex-col justify-around bg-white dark:text-gray-200 dark:bg-secondary min-w-[320px] h-44 xl:h-64 rounded-xl w-[95%] xs:w-[80%] p-8 m-3 bg-hero-pattern  bg-no-repeat bg-cover bg-left">
+          <div>
             <div>
-              <p className=" font-bold text-slate-700 "> درآمد ها</p>
-              <p className=" text-xl text-slate-600 "> $84,000,213 </p>
+              <p className=" lg:text-xl font-bold text-slate-700 "> درآمد ها</p>
+              <p className=" lg:text-3xl text-xl text-slate-600 ">
+                {" "}
+                $84,250.00{" "}
+              </p>
             </div>
           </div>
           <div className="mt-6 ">

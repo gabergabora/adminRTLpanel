@@ -7,6 +7,7 @@ import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
 import { useStateContext } from "./context/ContextProvider";
 import Ecommerce from "./pages/Ecommerce";
+import Orders from "./pages/Orders";
 function App() {
   const {
     activeMenu,
@@ -58,6 +59,7 @@ function App() {
                 {/* dashbord */}
 
                 <Route path="/" element={<Ecommerce />} />
+                <Route path="/orders" element={<Orders />} />
               </Routes>
             </div>
           </div>
