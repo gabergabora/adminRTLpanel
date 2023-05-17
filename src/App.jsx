@@ -20,6 +20,7 @@ import * as numbers from "cldr-data/main/fa/numbers.json";
 import * as timeZoneNames from "cldr-data/main/fa/timeZoneNames.json";
 import * as numberingSystems from "cldr-data/supplemental/numberingSystems.json";
 import * as weekData from "cldr-data/supplemental/weekData.json";
+import Kanban from "./pages/Kanban";
 
 function App() {
   loadCldr(numberingSystems, gregorian, numbers, timeZoneNames, weekData);
@@ -77,6 +78,7 @@ function App() {
                 <Route path="/employees" element={<Employees />} />
                 <Route path="/customers" element={<Customers />} />
                 <Route path="/calendar" element={<Calendar />} />
+                <Route path="/kanban" element={<Kanban />} />
               </Routes>
             </div>
           </div>
