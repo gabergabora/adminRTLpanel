@@ -6,7 +6,9 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
 import { useStateContext } from "./context/ContextProvider";
+import Customers from "./pages/Customers";
 import Ecommerce from "./pages/Ecommerce";
+import Employees from "./pages/Employees";
 import Orders from "./pages/Orders";
 function App() {
   const {
@@ -60,6 +62,8 @@ function App() {
 
                 <Route path="/" element={<Ecommerce />} />
                 <Route path="/orders" element={<Orders />} />
+                <Route path="/employees" element={<Employees />} />
+                <Route path="/customers" element={<Customers />} />
               </Routes>
             </div>
           </div>

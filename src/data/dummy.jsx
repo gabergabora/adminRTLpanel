@@ -1240,7 +1240,7 @@ export const employeesData = [
     Title: "مسئول فروش",
     HireDate: "1400/01/20",
     Country: "تهران",
-    ReportsTo: "پازل",
+    ReportsTo: "محمدی",
     EmployeeImage: avatar2,
   },
   {
@@ -1249,7 +1249,7 @@ export const employeesData = [
     Title: "بازاریاب",
     HireDate: "1399/04/30",
     Country: "تهران",
-    ReportsTo: "پازل",
+    ReportsTo: "محمدی",
     EmployeeImage: avatar3,
   },
   {
@@ -1258,7 +1258,7 @@ export const employeesData = [
     Title: "مدیر داخلی",
     HireDate: "1390/11/02",
     Country: "تهران",
-    ReportsTo: "پازل",
+    ReportsTo: "محمدی",
     EmployeeImage: avatar2,
   },
   {
@@ -1267,7 +1267,7 @@ export const employeesData = [
     Title: "بازاریاب",
     HireDate: "1401/01/19",
     Country: "کرج",
-    ReportsTo: "پازل",
+    ReportsTo: "محمدی",
     EmployeeImage: avatar4,
   },
 
@@ -1277,7 +1277,7 @@ export const employeesData = [
     Title: "مدیر فروش",
     HireDate: "1398/06/05",
     Country: "کرج",
-    ReportsTo: "پازل",
+    ReportsTo: "احمدی",
     EmployeeImage: avatar4,
   },
   {
@@ -1286,7 +1286,7 @@ export const employeesData = [
     Title: "راننده",
     HireDate: "1400/03/15",
     Country: "بابل",
-    ReportsTo: "پازل",
+    ReportsTo: "حسنی",
     EmployeeImage: avatar2,
   },
   {
@@ -1295,7 +1295,7 @@ export const employeesData = [
     Title: "منشی",
     HireDate: "1390/10/20",
     Country: "مشهد",
-    ReportsTo: "پازل",
+    ReportsTo: "رحمانی",
     EmployeeImage: avatar,
   },
   {
@@ -1304,7 +1304,7 @@ export const employeesData = [
     Title: "روابط عمومی",
     HireDate: "1395/03/14",
     Country: "تهران",
-    ReportsTo: "پازل",
+    ReportsTo: "حسینی",
     EmployeeImage: avatar,
   },
   {
@@ -1349,7 +1349,7 @@ export const employeesData = [
     Title: "مسئول فروش",
     HireDate: "1400/01/20",
     Country: "تهران",
-    ReportsTo: "پازل",
+    ReportsTo: "حسینی",
     EmployeeImage: avatar2,
   },
   {
@@ -1358,7 +1358,7 @@ export const employeesData = [
     Title: "بازاریاب",
     HireDate: "1399/04/30",
     Country: "تهران",
-    ReportsTo: "پازل",
+    ReportsTo: "حسینی",
     EmployeeImage: avatar3,
   },
   {
@@ -1367,7 +1367,7 @@ export const employeesData = [
     Title: "مدیر داخلی",
     HireDate: "1390/11/02",
     Country: "تهران",
-    ReportsTo: "پازل",
+    ReportsTo: "حسینی",
     EmployeeImage: avatar2,
   },
   {
@@ -1376,7 +1376,7 @@ export const employeesData = [
     Title: "بازاریاب",
     HireDate: "1401/01/19",
     Country: "کرج",
-    ReportsTo: "پازل",
+    ReportsTo: "احمدی",
     EmployeeImage: avatar4,
   },
 
@@ -1386,7 +1386,7 @@ export const employeesData = [
     Title: "مدیر فروش",
     HireDate: "1398/06/05",
     Country: "کرج",
-    ReportsTo: "پازل",
+    ReportsTo: "احمدی",
     EmployeeImage: avatar4,
   },
   {
@@ -1395,7 +1395,7 @@ export const employeesData = [
     Title: "راننده",
     HireDate: "1400/03/15",
     Country: "بابل",
-    ReportsTo: "پازل",
+    ReportsTo: "جباری",
     EmployeeImage: avatar2,
   },
   {
@@ -1404,7 +1404,7 @@ export const employeesData = [
     Title: "روابط عمومی",
     HireDate: "1395/03/14",
     Country: "تهران",
-    ReportsTo: "پازل",
+    ReportsTo: "حسینی",
     EmployeeImage: avatar,
   },
   {
@@ -1413,7 +1413,7 @@ export const employeesData = [
     Title: "روابط عمومی",
     HireDate: "1395/03/14",
     Country: "تهران",
-    ReportsTo: "پازل",
+    ReportsTo: "احمدی",
     EmployeeImage: avatar,
   },
   {
