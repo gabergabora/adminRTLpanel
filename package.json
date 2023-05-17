@@ -16,6 +16,8 @@
     "@syncfusion/ej2-react-grids": "^21.2.5",
     "@syncfusion/ej2-react-inputs": "^21.2.4",
     "@syncfusion/ej2-react-popups": "^21.2.4",
+    "@syncfusion/ej2-react-schedule": "^21.2.5",
+    "cldr-data": "^36.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.8.0",

@@ -6,11 +6,23 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
 import { useStateContext } from "./context/ContextProvider";
+import Calendar from "./pages/Calendar";
 import Customers from "./pages/Customers";
 import Ecommerce from "./pages/Ecommerce";
 import Employees from "./pages/Employees";
 import Orders from "./pages/Orders";
+
+// local setting for syncfusion
+
+import { loadCldr } from "@syncfusion/ej2-base";
+import * as gregorian from "cldr-data/main/fa/ca-gregorian.json";
+import * as numbers from "cldr-data/main/fa/numbers.json";
+import * as timeZoneNames from "cldr-data/main/fa/timeZoneNames.json";
+import * as numberingSystems from "cldr-data/supplemental/numberingSystems.json";
+import * as weekData from "cldr-data/supplemental/weekData.json";
+
 function App() {
+  loadCldr(numberingSystems, gregorian, numbers, timeZoneNames, weekData);
   const {
     activeMenu,
     themeSetting,
@@ -64,6 +76,7 @@ function App() {
                 <Route path="/orders" element={<Orders />} />
                 <Route path="/employees" element={<Employees />} />
                 <Route path="/customers" element={<Customers />} />
+                <Route path="/calendar" element={<Calendar />} />
               </Routes>
             </div>
           </div>

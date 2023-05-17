@@ -4,7 +4,7 @@ import { useStateContext } from "../context/ContextProvider";
 const Header = ({ category, title }) => {
   const { currentColor } = useStateContext();
   return (
-    <div className="md-10 ">
+    <div className="mb-10 ">
       <p className="font-semibold dark:text-gray-50 text-slate-800">
         {category}
       </p>
