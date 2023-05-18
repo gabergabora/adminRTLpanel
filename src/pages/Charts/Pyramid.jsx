@@ -48,7 +48,7 @@ const Pyramid = () => {
               xName="x"
               yName="y"
               type="Pyramid"
-              width="5%"
+              width="45%"
               height="80%"
               neckWidth="15%"
               gapRatio={0.03}

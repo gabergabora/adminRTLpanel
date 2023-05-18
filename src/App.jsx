@@ -26,6 +26,7 @@ import Bar from "./pages/Charts/Bar";
 import ColorMapping from "./pages/Charts/ColorMapping";
 import Financial from "./pages/Charts/Financial";
 import Pyramid from "./pages/Charts/Pyramid";
+import Stacked from "./pages/Charts/Stacked";
 import Pie from "./pages/Charts/pie";
 import ColorPicker from "./pages/ColorPicker";
 import Editor from "./pages/Editor";
@@ -97,6 +98,7 @@ function App() {
                 <Route path="/financial" element={<Financial />} />
                 <Route path="/color-mapping" element={<ColorMapping />} />
                 <Route path="/pyramid" element={<Pyramid />} />
+                <Route path="/stacked" element={<Stacked />} />
               </Routes>
             </div>
           </div>
