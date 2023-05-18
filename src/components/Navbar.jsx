@@ -11,7 +11,7 @@ import { useStateContext } from "../context/ContextProvider";
 import avatar from "../data/avatar.jpg";
 import Cart from "./Cart";
 import Chat from "./Chat";
-import Notifications from "./Notifications";
+import Notification from "./Notification";
 import UserProfile from "./UserProfile";
 // eslint-disable-next-line react/prop-types
 const NavButton = ({ title, customFunc, icon, color, dotColor }) => (
@@ -106,9 +106,9 @@ const Navbar = () => {
             <MdKeyboardArrowDown className="text-gray-400 text-14" />
           </div>
         </TooltipComponent>
-        {isClicked.card && <Cart />}
+        {isClicked.cart && <Cart />}
         {isClicked.chat && <Chat />}
-        {isClicked.notification && <Notifications />}
+        {isClicked.notification && <Notification />}
         {isClicked.userProfile && <UserProfile />}
       </div>
     </div>

@@ -21,6 +21,7 @@ import * as numbers from "cldr-data/main/fa/numbers.json";
 import * as timeZoneNames from "cldr-data/main/fa/timeZoneNames.json";
 import * as numberingSystems from "cldr-data/supplemental/numberingSystems.json";
 import * as weekData from "cldr-data/supplemental/weekData.json";
+import ThemeSettings from "./components/themeSettings";
 import Area from "./pages/Charts/Area";
 import Bar from "./pages/Charts/Bar";
 import ColorMapping from "./pages/Charts/ColorMapping";
@@ -36,8 +37,8 @@ function App() {
   loadCldr(numberingSystems, gregorian, numbers, timeZoneNames, weekData);
   const {
     activeMenu,
-    themeSetting,
-    setThemeSetting,
+    themeSettings,
+    setThemeSettings,
     currentColor,
     currentMode,
     isClicked,
@@ -45,6 +46,7 @@ function App() {
   return (
     <div className={currentMode === "Dark" ? "dark" : ""}>
       <BrowserRouter>
+        {themeSettings && <ThemeSettings />}
         <div className="flex relative dark:bg-main-dark-bg">
           <div className="fixed left-4 bottom-4 z-[10000]">
             <TooltipComponent content="تنظیمات" position="TopRight">
@@ -52,7 +54,7 @@ function App() {
                 type="button"
                 className="text-3xl p-3 hover:drop-shadow-xl hover:bg-light-gray text-white rounded-full"
                 style={{ background: currentColor }}
-                onClick={() => setThemeSetting(true)}
+                onClick={() => setThemeSettings(true)}
               >
                 <RiSettingsLine />
               </button>
@@ -84,6 +86,7 @@ function App() {
                 {/* dashbord */}
 
                 <Route path="/" element={<Ecommerce />} />
+                <Route path="/ecommerce" element={<Ecommerce />} />
                 <Route path="/orders" element={<Orders />} />
                 <Route path="/employees" element={<Employees />} />
                 <Route path="/customers" element={<Customers />} />

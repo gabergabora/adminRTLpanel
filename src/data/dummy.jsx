@@ -615,7 +615,7 @@ export const cartData = [
   {
     image: product7,
     name: "بستنی",
-    category: "نوشیندی و بستنی",
+    category: "نوشیدنی و بستنی",
     price: "$190",
   },
 ];
@@ -846,26 +846,26 @@ export const medicalproBranding = {
 export const themeColors = [
   {
     name: "blue-theme",
-    color: "#1A97F5",
+    color: "	#005b96",
   },
   {
     name: "green-theme",
-    color: "#03C9D7",
+    color: "#01cdfe",
   },
   {
     name: "purple-theme",
-    color: "#7352FF",
+    color: "#b967ff",
+  },
+  {
+    name: "pink-theme",
+    color: "#ff71ce",
   },
   {
     name: "red-theme",
-    color: "#FF5C8E",
+    color: "#d11141",
   },
   {
-    name: "indigo-theme",
-    color: "#1E4DB7",
-  },
-  {
-    color: "#FB9678",
+    color: "#ffad60",
     name: "orange-theme",
   },
 ];
