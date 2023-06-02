@@ -4,6 +4,9 @@
 - Right to left writing mode. Designed with Persian language
 - Using attractive color categories for user experience
 - It has dark and light mode
+- The user can change the main color of the site according to the colors set in the settings section
+- Charts used in this panel: Area , Bar , ColorMapping , Financial , LineChart , pie , Pyramid , Stacked
+- Applications used in this panel: Calender , ColorPicker , TextEditor , Kanban and another pages
 - The technologies used in this project are:
   react.js ,
   tailwind.css , syncfusion , vite.js
